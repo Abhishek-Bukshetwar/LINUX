@@ -4,4 +4,5 @@ read a b
 echo "Choose operation (+ - * /):"
 read op
 echo "Result:"
-echo "$a $op $b" | bc
+echo "scale=2; $a $op $b" | bc
+

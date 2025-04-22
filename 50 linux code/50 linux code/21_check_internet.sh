@@ -1,7 +1,7 @@
-#!/bin/bash
-ping -c 1 google.com &> /dev/null
+ping -c 1 8.8.8.8 &> /dev/null
+
 if [ $? -eq 0 ]; then
   echo "Internet is connected."
 else
-  echo "Internet is down."
+  echo "Internet is down or unreachable."
 fi
