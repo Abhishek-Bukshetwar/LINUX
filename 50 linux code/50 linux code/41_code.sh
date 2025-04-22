@@ -1,4 +1,4 @@
-#creating 50 files 10 with same format for 5 format 
+#sorting 50 according to extension
 read -p "Enter Directory to sort  " dir
 read -p "Enter file to store Output  " text
 mkdir -p $dir 

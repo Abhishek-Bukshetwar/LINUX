@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Choose an option:"
+echo "Choose an option(1 or 2):"
 echo "1. Create a directory"
 echo "2. Delete a directory"
 read choice
